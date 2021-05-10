@@ -98,6 +98,6 @@ function validate(req) {
   }
 }
 
-app.listen(4000, () => {
-  console.log("Listening on Port 4000!!");
+app.listen(process.env.PORT || 3000, () => {
+  console.log("Listening on Port 3000!!");
 });
